@@ -1,5 +1,3 @@
-/////////////////////////
-
 ## EndPoints API
 
 ### Get all clubs
@@ -62,105 +60,67 @@ conda update conda
 
 ## Create environment using conda
 
-```
-1. Create environment
+# 1. Create environment
 
 ```
-
 conda create -n env_python_mongo_crud python=3.10.9
-
 ```
 
-2. Activate environment
+# 2. Activate environment
 
 ```
-
 conda activate env_python_mongo_crud
-
 ```
 
-3. Deactivate environment
+# 3. Deactivate environment
 
 ```
-
 conda deactivate
-
 ```
 
-4. List environments
+# 4. List environments
 
 ```
-
 conda env list
-
 ```
 
-5. Remove environment
+# 5. Remove environment
 
 ```
-
 conda remove -n env_name --all
-
 ```
 
-###
+## Commands using fast api and uvicorn server
 
-/////////////////////////
-
-###
-
-Commands using fast api and uvicorn server
-
-###
-
-###
-
-1.Install fast api
+## 1.Install fast api
 
 ```
-
 pip install fastapi
-
 ```
 
-2.Install uvicorn
+## 2.Install uvicorn
 
 ```
-
 pip install uvicorn
-
 ```
 
-###
+## 3.Install pymongo
 
 ```
-
-###
-
-1.Run server using uvicorn
-
+pip install pymongo
 ```
 
-uvicorn app:app --reload
+## 4.Install pydantic
 
 ```
-
-###
-
-###
-
-1. Intall models
-
-```
-
 pip install pydantic
-
-```
-
-```
-
 conda install pydantic -c conda-forge
+```
 
+## Run server using uvicorn and fast api (app.py) (Run)
+
+```
+uvicorn app:app --reload
 ```
 
 ## Create Requirements
